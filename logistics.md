@@ -1,5 +1,5 @@
 ## Deadline of Submission 
-- 27th May 2024
+- 27th May 2024 11:59 PM
 
 ## Deliverables 
   - `main.py` Python file
