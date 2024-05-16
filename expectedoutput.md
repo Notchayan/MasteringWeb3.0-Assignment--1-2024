@@ -1,22 +1,26 @@
-## Block Header
+## Explanation of Each Section
 
-- **version**: Fixed value, e.g., 1.
-- **previous_block_hash**: Dummy value, e.g., "0000000000000000000000000000000000000000000000000000000000000000".
-- **merkle_root**: A hash calculated from concatenating the txids.
-- **timestamp**: Current Unix timestamp.
-- **difficulty_target**: Fixed value, e.g., "0000ffff00000000000000000000000000000000000000000000000000000000".
-- **nonce**: A value found during mining to satisfy the difficulty target.
+### Block Header
+Contains metadata about the block including version, previous block hash, Merkle root, timestamp, difficulty target, and nonce.
 
-## Serialized Coinbase Transaction
+- **version**: Block version (e.g., 1).
+- **previous_block_hash**: Hash of the previous block, using a dummy value here.
+- **merkle_root**: Root hash of all transaction IDs concatenated.
+- **timestamp**: Unix timestamp of block creation.
+- **difficulty_target**: Predefined target for block mining.
+- **nonce**: Value found through mining to satisfy the difficulty target.
 
-- **txid**: A unique identifier for the coinbase transaction.
-- **vin**: Input of the coinbase transaction, typically contains special coinbase data.
-- **vout**: Output of the coinbase transaction, with a predefined reward.
+### Serialized Coinbase Transaction
+Special transaction that rewards the miner.
 
-## Transaction IDs
+- **txid**: Unique identifier for the coinbase transaction.
+- **vin**: Input of the coinbase transaction, containing special coinbase data.
+- **vout**: Output of the coinbase transaction, specifying the reward value and script.
 
-- A list of the transaction IDs included in the mined block, starting with the coinbase transaction's ID followed by other valid transaction IDs.
+### Transaction IDs
+List of transaction IDs included in the block.
 
----
+- The first transaction ID is the coinbase transaction ID.
+- Following IDs are for valid transactions mined in the block.
 
-Note that the actual values (like txids, timestamps, nonce) will differ based on the specific transactions processed and the mining outcome. This example is meant to illustrate the expected structure and content of the `output.txt` file.
+Ensure that when generating the actual `output.txt` file, the placeholder values (...) are replaced with the real transaction IDs and values derived from processing the transactions and mining the block.
