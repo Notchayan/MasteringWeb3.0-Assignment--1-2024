@@ -1,4 +1,4 @@
-## Assignemnt-1 : Overview
+## Assignmnt-1 : Overview
 Simulate the mining process of a block by validating and including transactions from a given set of JSON files in the `mempool` folder.
 
 ## Objective
