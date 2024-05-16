@@ -13,3 +13,4 @@
 ## AI Usage
 - Usage of AI tools is strictly prohibited. We will be able to identify the use of AI tools.
 - Use of AI tools results in disqualification for all involved.
+- We are smart enough to know who used AI tools and where you can use AI tools, beaware of that 
