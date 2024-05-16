@@ -21,7 +21,7 @@
    - **Reading Material**: [Segregated Witness](https://en.bitcoin.it/wiki/Segregated_Witness)
 
 6. **Is_coinbase**: This flag indicates whether the transaction is a coinbase transaction, which is the first transaction in a block and generates new bitcoins for the miner. In this example, it's false, meaning it's a regular transaction.  
-   - **Reading Material**: [Coinbase Transaction]((https://www.geeksforgeeks.org/what-is-coinbase-transaction/)
+   - **Reading Material**: [Coinbase Transaction](https://www.geeksforgeeks.org/what-is-coinbase-transaction/)
 
 7. **Sequence**: This is a 32-bit field used to control the relative time or block height at which the transaction can be added to the blockchain.  
    - **Reading Material**: [Transaction Sequence](https://learnmeabitcoin.com/technical/transaction/input/sequence/)
