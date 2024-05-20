@@ -36,6 +36,9 @@ Your goal is to write a script that:
 ### Difficulty Target
 - The block hash must be less than `0000ffff00000000000000000000000000000000000000000000000000000000`.
 
+### Prev block hash assumption 
+- `0000111100000000000000000000000000000000000000000000000000000000`
+
 ## Execution
 - Create `run.sh` to execute your script (e.g., `python main.py`).
 
